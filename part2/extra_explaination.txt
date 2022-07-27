@@ -1,0 +1,10 @@
+
+
+I redo the project in gmpy2 lib this week, tried for ecm and siqs also p+1 
+but some unexpected issues that I cannot fixed in short time happened,
+I will try to finish them out of the class after the final. 
+
+I thought it would finish really quick, but the testing processes used too much time.
+I'm really sorry that I submit this so late, for several reasons; first is I still don't know your late submission policy, since I was late for the first day and I will have a penalty anyway, I decide to follow the instruction and redo it. And second is that I really want to make this project better.
+
+Thank you for everything and wish you the best.
