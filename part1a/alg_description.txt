@@ -1,0 +1,37 @@
+alg description:
+
+RSA alg implemented in python
+test enviroment: Python 3.7.7 & Mac
+
+sample build can be run with command: python3 sample_build.py
+
+used random, hashlib 
+
+intCalc.py: native
+implemented Montgomery algorithm and extended Euclidean algorithm
+
+primeTest.py: random, intCalc
+implemented Miller_Rabin alg for prime number test
+also tried to implemented pollard_rho alg for prime factorization
+didn't used for part1a. Not sure about the correctness
+
+RSA.py: intCalc, primeTest, hashlib
+from given num of bits randomly select two unequal prime p and q
+n = p * q
+φ(n) = (p-1)(q-1) in code it's 't'
+
+select e with recommand e (default to be 65537)
+1< e < φ(n) and e is relatively prime with φ(n)
+
+used extended Euclidean algorithm to find the solution
+which would be d
+
+public key = (e,n)
+private key = (d,n)
+
+Used private key to add sign to the msg
+Used public key to verify the signature
+
+I said I deserve a B because I don't know if I'm allowed to use hashlib
+And I submitted late also still not sure about the correctness.
+I don't think I deserve an A, the code still can be improved.
